@@ -1,0 +1,22 @@
+{
+  "name": "mall-dicrectory",
+  "version": "1.0.0",
+  "description": "project for line bot competition mall directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dikyarga/mall-directory-bot.git"
+  },
+  "author": "diki & ego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dikyarga/mall-directory-bot/issues"
+  },
+  "homepage": "https://github.com/dikyarga/mall-directory-bot#readme",
+  "dependencies": {
+    "sequelize": "^3.30.2"
+  }
+}
