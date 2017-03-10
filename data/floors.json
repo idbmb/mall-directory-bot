@@ -1,0 +1,834 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "mall_id": 1,
+      "name": "GF",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 2,
+      "mall_id": 1,
+      "name": "1",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 3,
+      "mall_id": 1,
+      "name": "2",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 4,
+      "mall_id": 1,
+      "name": "3",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 5,
+      "mall_id": 2,
+      "name": "LG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 6,
+      "mall_id": 2,
+      "name": "G",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 7,
+      "mall_id": 2,
+      "name": "B1",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 8,
+      "mall_id": 2,
+      "name": "UG",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 9,
+      "mall_id": 2,
+      "name": "1",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 10,
+      "mall_id": 2,
+      "name": "2",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 11,
+      "mall_id": 2,
+      "name": "3",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 12,
+      "mall_id": 3,
+      "name": "LG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 13,
+      "mall_id": 3,
+      "name": "LGM",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 14,
+      "mall_id": 3,
+      "name": "GF",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 15,
+      "mall_id": 3,
+      "name": "UG",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 16,
+      "mall_id": 3,
+      "name": "L1",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 17,
+      "mall_id": 3,
+      "name": "L2",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 18,
+      "mall_id": 3,
+      "name": "L3",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 19,
+      "mall_id": 3,
+      "name": "L8",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 20,
+      "mall_id": 4,
+      "name": "LG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 21,
+      "mall_id": 4,
+      "name": "LGM",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 22,
+      "mall_id": 4,
+      "name": "UG",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 23,
+      "mall_id": 4,
+      "name": "G",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 24,
+      "mall_id": 4,
+      "name": "1",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 25,
+      "mall_id": 4,
+      "name": "2",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 26,
+      "mall_id": 4,
+      "name": "3",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 27,
+      "mall_id": 4,
+      "name": "4",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 28,
+      "mall_id": 4,
+      "name": "5",
+      "publish": 1,
+      "level": 9,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 29,
+      "mall_id": 5,
+      "name": "B1",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 30,
+      "mall_id": 5,
+      "name": "LG",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 31,
+      "mall_id": 5,
+      "name": "G",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 32,
+      "mall_id": 5,
+      "name": "UG",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 33,
+      "mall_id": 5,
+      "name": "1",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 34,
+      "mall_id": 5,
+      "name": "2",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 35,
+      "mall_id": 6,
+      "name": "B",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 36,
+      "mall_id": 6,
+      "name": "LG",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 37,
+      "mall_id": 6,
+      "name": "G",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 38,
+      "mall_id": 6,
+      "name": "UG",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 39,
+      "mall_id": 6,
+      "name": "1",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 40,
+      "mall_id": 6,
+      "name": "2",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 41,
+      "mall_id": 6,
+      "name": "3",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 42,
+      "mall_id": 6,
+      "name": "3A",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 43,
+      "mall_id": 6,
+      "name": "5",
+      "publish": 1,
+      "level": 9,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 44,
+      "mall_id": 6,
+      "name": "6",
+      "publish": 1,
+      "level": 10,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 45,
+      "mall_id": 6,
+      "name": "8",
+      "publish": 1,
+      "level": 11,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 46,
+      "mall_id": 7,
+      "name": "B1",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 47,
+      "mall_id": 7,
+      "name": "B2",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 48,
+      "mall_id": 7,
+      "name": "LG",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 49,
+      "mall_id": 7,
+      "name": "G",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 50,
+      "mall_id": 7,
+      "name": "UG",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 51,
+      "mall_id": 7,
+      "name": "1",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 52,
+      "mall_id": 7,
+      "name": "2",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 53,
+      "mall_id": 7,
+      "name": "3",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 54,
+      "mall_id": 8,
+      "name": "B",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 55,
+      "mall_id": 8,
+      "name": "1",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 56,
+      "mall_id": 8,
+      "name": "2",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 57,
+      "mall_id": 8,
+      "name": "3",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 58,
+      "mall_id": 8,
+      "name": "4",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 59,
+      "mall_id": 8,
+      "name": "5",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 60,
+      "mall_id": 8,
+      "name": "6",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 61,
+      "mall_id": 9,
+      "name": "LG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 62,
+      "mall_id": 9,
+      "name": "GF",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 63,
+      "mall_id": 9,
+      "name": "UG",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 64,
+      "mall_id": 9,
+      "name": "1",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 65,
+      "mall_id": 9,
+      "name": "2",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 66,
+      "mall_id": 9,
+      "name": "3",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 67,
+      "mall_id": 9,
+      "name": "3A",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 68,
+      "mall_id": 9,
+      "name": "5",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 69,
+      "mall_id": 9,
+      "name": "P4",
+      "publish": 1,
+      "level": 9,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 70,
+      "mall_id": 9,
+      "name": "P5",
+      "publish": 1,
+      "level": 10,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 71,
+      "mall_id": 10,
+      "name": "G",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 72,
+      "mall_id": 10,
+      "name": "1",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 73,
+      "mall_id": 10,
+      "name": "2",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 74,
+      "mall_id": 10,
+      "name": "3",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 75,
+      "mall_id": 10,
+      "name": "4",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 76,
+      "mall_id": 11,
+      "name": "LG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 77,
+      "mall_id": 11,
+      "name": "G",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 78,
+      "mall_id": 11,
+      "name": "1",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 79,
+      "mall_id": 11,
+      "name": "2",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 80,
+      "mall_id": 11,
+      "name": "3",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 81,
+      "mall_id": 11,
+      "name": "4",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 82,
+      "mall_id": 11,
+      "name": "5",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 83,
+      "mall_id": 11,
+      "name": "6",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 84,
+      "mall_id": 12,
+      "name": "UG",
+      "publish": 1,
+      "level": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 85,
+      "mall_id": 12,
+      "name": "P2",
+      "publish": 1,
+      "level": 2,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 86,
+      "mall_id": 12,
+      "name": "G",
+      "publish": 1,
+      "level": 3,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 87,
+      "mall_id": 12,
+      "name": "1",
+      "publish": 1,
+      "level": 4,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 88,
+      "mall_id": 12,
+      "name": "2",
+      "publish": 1,
+      "level": 5,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 89,
+      "mall_id": 12,
+      "name": "3",
+      "publish": 1,
+      "level": 6,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 90,
+      "mall_id": 12,
+      "name": "4",
+      "publish": 1,
+      "level": 7,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 91,
+      "mall_id": 12,
+      "name": "5",
+      "publish": 1,
+      "level": 8,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 92,
+      "mall_id": 12,
+      "name": "6",
+      "publish": 1,
+      "level": 9,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    }
+  ],
+  "message": "Floors retrieved successfully"
+}

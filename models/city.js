@@ -6,7 +6,10 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        City.belongsTo(models.Province,{
+          foreignKey: 'province_id'
+        }),
+        City.hasMany(models.Mall)
       }
     }
   });

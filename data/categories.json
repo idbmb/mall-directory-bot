@@ -1,0 +1,230 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "ATM",
+      "image": "atm.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 2,
+      "name": "Automotive",
+      "image": "automotive.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 3,
+      "name": "Bag",
+      "image": "bag.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 4,
+      "name": "Bank",
+      "image": "bank.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 5,
+      "name": "Book",
+      "image": "book.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 6,
+      "name": "Cafe",
+      "image": "cafe.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 7,
+      "name": "Coffee",
+      "image": "coffee.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "image": "education.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 9,
+      "name": "Electronic",
+      "image": "electronic.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 10,
+      "name": "Fashion",
+      "image": "fashion.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 11,
+      "name": "Health",
+      "image": "health.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 12,
+      "name": "Hobby & Gift",
+      "image": "hobby-gift.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 13,
+      "name": "Home",
+      "image": "home.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 14,
+      "name": "Jewelry",
+      "image": "jewelry.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 15,
+      "name": "Karaoke",
+      "image": "karaoke.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 16,
+      "name": "Kids",
+      "image": "kids.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 17,
+      "name": "Market",
+      "image": "market.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 18,
+      "name": "Music",
+      "image": "music.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 19,
+      "name": "Photography",
+      "image": "photography.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 20,
+      "name": "Restaurant",
+      "image": "restaurant.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 21,
+      "name": "Salon",
+      "image": "salon.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 22,
+      "name": "Shirt",
+      "image": "shirt.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 23,
+      "name": "Shoe",
+      "image": "shoe.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 24,
+      "name": "Snack",
+      "image": "snack.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 25,
+      "name": "Sport",
+      "image": "sport.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 26,
+      "name": "Theater",
+      "image": "theater.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 27,
+      "name": "Travel",
+      "image": "travel.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    },
+    {
+      "id": 28,
+      "name": "Watch",
+      "image": "watch.svg",
+      "publish": 1,
+      "created_at": "2017-03-06 13:40:30",
+      "updated_at": "2017-03-06 13:40:30"
+    }
+  ],
+  "message": "Categories retrieved successfully"
+}

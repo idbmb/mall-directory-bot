@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dikyarga/mall-directory-bot#readme",
   "dependencies": {
+    "pg": "^6.1.3",
     "sequelize": "^3.30.2"
   }
 }

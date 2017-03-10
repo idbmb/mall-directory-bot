@@ -12,6 +12,9 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
+        Mall.belongsTo(models.City,{
+          foreignKey:'city_id'
+        })
       }
     }
   });
