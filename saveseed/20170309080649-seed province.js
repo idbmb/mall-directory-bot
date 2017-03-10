@@ -11,7 +11,7 @@ module.exports = {
         for (var i = 0; i < provincesJson.length; i++) {
           promises.push(
             new Promise(function(resolve,reject){
-              model.Province.create({name:provincesJson[i].name})
+              model.Province.create({id:provincesJson[i].id,name:provincesJson[i].name})
               if (promises.length!=0) {
                 resolve(provincesJson[i].name)
               } else {
@@ -31,7 +31,7 @@ module.exports = {
   },
 
   down: function (queryInterface, Sequelize) {
-    return queryInterface.bulkDelete('Province', null, {});
+    return queryInterface.bulkDelete('Provinces', null, {});
 
   }
 };
