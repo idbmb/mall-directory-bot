@@ -1,6 +1,4 @@
-{
-  "success": true,
-  "data": [
+[
     {
       "id": 1,
       "name": "Aeon",
@@ -193,6 +191,4 @@
       "updated_at": "2017-03-06 13:40:30",
       "ordering": 4
     }
-  ],
-  "message": "Malls retrieved successfully"
-}
+  ]

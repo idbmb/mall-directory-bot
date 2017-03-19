@@ -1,6 +1,4 @@
-{
-  "success": true,
-  "data": [
+[
     {
       "id": 1,
       "name": "1 Station",
@@ -53566,6 +53564,4 @@
       "brand_id": 1283,
       "phone": "563-9977"
     }
-  ],
-  "message": "Stores retrieved successfully"
-}
+  ]

@@ -20,15 +20,14 @@ module.exports = {
         promises.push(
           new Promise(function(resolve,reject){
             model.City.create({id:citiesJson[i].id,name:citiesJson[i].name,province_id:citiesJson[i].province_id})
+            if (promises.length!=0) {
+              resolve('success')
+            } else {
+              reject()
+            }
           })
         )
-        if (promises!=0) {
-          resolve()
-        } else {
-          reject()
-        }
       }
-  console.log(promises);
     Promise.all(promises).then(function(){
       console.log('seed success');
       res()
