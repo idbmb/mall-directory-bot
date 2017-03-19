@@ -1,4 +1,6 @@
 # mall-directory-bot
+- database schema: https://www.draw.io/#G0B_jPTYujvrxqUUNBZ1A2ckNPOXc
+
 1 jalankan sequelize:db:migrate untuk
 2 lakukan seeding data secara 1 persatu
 - sequelize db:seed --seed seeders/20170315063436-seed_floor.js
