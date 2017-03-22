@@ -16,6 +16,10 @@ module.exports = function(sequelize, DataTypes) {
         // associations can be defined here
         Mall.belongsTo(models.City,{
           foreignKey:'city_id'
+        }),
+        Mall.belongsToMany(models.Store,{
+          through:'Floor',
+          foreignKey: 'mall_id'
         })
       }
     }

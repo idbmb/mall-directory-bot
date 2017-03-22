@@ -5,7 +5,9 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-       Province.hasMany(models.City);
+       Province.hasMany(models.City,{
+         foreignKey: 'province_id'
+       });
       }
     }
   });

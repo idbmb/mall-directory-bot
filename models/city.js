@@ -9,7 +9,9 @@ module.exports = function(sequelize, DataTypes) {
         City.belongsTo(models.Province,{
           foreignKey: 'province_id'
         }),
-        City.hasMany(models.Mall)
+        City.hasMany(models.Mall,{
+          foreignKey: 'city_id'
+        })
       }
     }
   });
