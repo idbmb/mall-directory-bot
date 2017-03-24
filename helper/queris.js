@@ -73,18 +73,27 @@ storeInMall:function(storeName){
    })
 },
 
-storeAtMall:function(storeName,mallName){
-  model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
-                         FROM public."Malls" malls left join public."Floors" floors ON (malls.id=floors.mall_id) left join public."Stores" stores ON (floors.id=stores.floor_id)
-                         where malls.name Ilike '%${mallName}%' and stores.name ILIKE '%${storeName}%' `
-  ,{
-    type: model.sequelize.QueryTypes.SELECT
-  }).then(function(malls){
-    malls.forEach(function(mall){
-      console.log(`${mall.store_name} di ${mall.mall_name} ada di lantai ${mall.floor_name} `);
-    })
+storeAtMall: function(storeName, mallName){
+  var result = ''
+  var data = ''
 
+  return new Promise(function(res, rej){
+
+    model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
+      FROM public."Malls" malls left join public."Floors" floors ON (malls.id=floors.mall_id) left join public."Stores" stores ON (floors.id=stores.floor_id)
+      where malls.name Ilike '%${mallName}%' and stores.name ILIKE '%${storeName}%' `
+      ,{
+        type: model.sequelize.QueryTypes.SELECT
+      }).then(function(malls){
+        malls.forEach(function(mall){
+          console.log('jalan nih');
+          result += `${mall.store_name} di ${mall.mall_name} ada di lantai ${mall.floor_name} `;
+        })
+
+        res(result)
+      })
   })
+
 },
 
 storeAtMalls:function(storeName){

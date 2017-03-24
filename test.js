@@ -9,8 +9,8 @@ let queris = require('./helper/queris')
 //queris.provinceOfCity('bandung')
 //queris.mallInCity('jakarta selatan')
 //queris.storeInMall('xxi');
-//queris.storeAtMall('bca','aeon');
+// queris.storeAtMall('bca','aeon');
 
 //queris.storeAtMalls('xxi');
-queris.storeInFloor('gandaria','LG')
+// queris.storeInFloor('gandaria','LG')
 //console.log(citiesJson);
