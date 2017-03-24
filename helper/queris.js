@@ -1,4 +1,5 @@
 let model= require('../models')
+var _ = require('lodash');
 module.exports = {
 //mencari city di profinsi tertentu
   cityOfProvince:function(provinceName){
@@ -75,8 +76,6 @@ storeInMall:function(storeName){
 
 storeAtMall: function(storeName, mallName){
   var result = ''
-  var data = ''
-
   return new Promise(function(res, rej){
 
     model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
@@ -124,6 +123,24 @@ storeInFloor: function(mallName,floorName){
     })
 
   })
+},
+isExistMall: function(mallName){
+  return new Promise(function(res, rej){
+    model.Mall.findAll({
+      where:{
+        name:{
+          ilike:`%${mallName}%`
+        }
+      }
+    }).then(function(malls){
+      if (malls.length > 0) {
+        res(true)
+      } else {
+        res(false)
+      }
+    })
+  })
+
 }
 
 
