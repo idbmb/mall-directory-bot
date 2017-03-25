@@ -77,7 +77,7 @@ router.post('/webhook', function(req, res, next) {
         });
       } else {
         // kalo mall yang di cari belum ada di DB kita
-        composeMessage = 'Hmmmmm.. maaf, ' + mall + ' mall belum ada di pengetahuan saya ): saya segera mencari tahunya (:'
+        composeMessage = 'Hmmmmm.. maaf, "' + mall + '" mall belum ada di pengetahuan saya ): saya segera mencari tahunya (:'
         res.json({
           speech: composeMessage,
           displayText: composeMessage
@@ -94,7 +94,7 @@ router.post('/webhook', function(req, res, next) {
           var composeMessage = ''
           // kalo gak ketemu
           if (stores.length == 0) {
-            composeMessage = 'Hmmmmm.. maaf, ' + store + ' belum ada di pengetahuan saya ): saya segera mencari tahunya (:'
+            composeMessage = 'Hmmmmm.. maaf, "' + store + '" belum ada di pengetahuan saya ): saya segera mencari tahunya (:'
             res.json({
               speech: composeMessage,
               displayText: composeMessage
