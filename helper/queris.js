@@ -75,7 +75,6 @@ storeInMall:function(storeName){
 },
 
 storeAtMall: function(storeName, mallName){
-  var result = ''
   return new Promise(function(res, rej){
 
     model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
@@ -96,18 +95,24 @@ storeAtMall: function(storeName, mallName){
 },
 
 storeAtMalls:function(storeName){
-  model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
-                         FROM public."Malls" malls left join public."Floors" floors ON (malls.id=floors.mall_id) left join public."Stores" stores ON (floors.id=stores.floor_id)
-                         where stores.name ILIKE '%${storeName}%' `
-  ,{
-    type: model.sequelize.QueryTypes.SELECT
-  }).then(function(malls){
-    console.log(`${malls[0].store_name}  itu ada di : `);
-    malls.forEach(function(mall){
-      console.log(`${mall.mall_name} lantai ${mall.floor_name} `);
-    })
+  return new Promise(function(res, rej){
 
+    model.sequelize.query(`SELECT malls.name as mall_name,floors.name as floor_name,stores.name as store_name
+      FROM public."Malls" malls left join public."Floors" floors ON (malls.id=floors.mall_id) left join public."Stores" stores ON (floors.id=stores.floor_id)
+      where stores.name ILIKE '%${storeName}%' `
+      ,{
+        type: model.sequelize.QueryTypes.SELECT
+      }).then(function(stores){
+        res(stores)
+        console.log(`${stores[0].store_name}  itu ada di : `);
+        stores.forEach(function(store){
+          console.log(`${store.mall_name} lantai ${store.floor_name} `);
+        })
+
+      })
   })
+
+
 },
 
 storeInFloor: function(mallName,floorName){
