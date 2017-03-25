@@ -13,22 +13,40 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/webhook', function(req, res, next) {
-  // console.log('request : ', req.body);
+  let store = req.body.result.parameters.toko
+  let mall = req.body.result.parameters.mall
   if (req.body.result.action == 'cari_toko_di_mall') {
 
     console.log('running', req.body.result.parameters);
-
-    queris.isExistMall(req.body.result.parameters.mall).then(function(exist){
-      console.log('is mall exist', exist);
+    // cek mall nya ada gak di DB
+    queris.isExistMall(mall).then(function(exist){
       if (exist) {
-        queris.storeAtMall(req.body.result.parameters.toko, req.body.result.parameters.mall).then(function(data){
-          console.log('hasil : ', data);
+        queris.storeAtMall(store, mall).then(function(malls){
+          console.log('data : ', malls);
+          var composeMessage = ''
+          if (malls.length > 1) {
+            composeMessage = `Ada ${malls.length} ${store} di mall ${mall}, yaitu di lantai `
+            for (var i = 0; i < malls.length; i++) {
+              if (malls.length - i == 2) {
+                composeMessage += `${malls[i].floor_name} dan `
+              } else if (malls.length - i == 1) {
+                composeMessage += `${malls[i].floor_name}`
+
+              } else {
+                composeMessage += `${malls[i].floor_name}, `
+              }
+            }
+
+          } else {
+            composeMessage = `${malls[0].store_name} di ${malls[0].mall_name} ada di lantai ${malls[0].floor_name}`
+          }
           res.json({
-            speech: data,
-            displayText: data
+            speech: composeMessage,
+            displayText: composeMessage
           })
         });
       } else {
+        // kalo mall yang di cari belum ada di DB kita
         res.json({
           speech: 'Hmmmmm.. maaf, ' + req.body.result.parameters.mall + ' mall belum ada di database kami ): kami segera mencari tahunya (:',
           displayText: 'Hmmmmm.. maaf, ' + req.body.result.parameters.mall + ' mall belum ada di database kami ): kami segera mencari tahunya (:',

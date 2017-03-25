@@ -84,12 +84,12 @@ storeAtMall: function(storeName, mallName){
       ,{
         type: model.sequelize.QueryTypes.SELECT
       }).then(function(malls){
-        malls.forEach(function(mall){
-          console.log('jalan nih');
-          result += `${mall.store_name} di ${mall.mall_name} ada di lantai ${mall.floor_name} `;
-        })
 
-        res(result)
+        // malls.forEach(function(mall){
+        //   result += `${mall.store_name} di ${mall.mall_name} ada di lantai ${mall.floor_name} `;
+        // })
+
+        res(malls)
       })
   })
 
